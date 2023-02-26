@@ -25,6 +25,7 @@
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.idRol }) |
+            @*<a asp-action="Edit" asp-route-id="@item.idRol">Edit</a> |*@
             @Html.ActionLink("Details", "Details", new { id=item.idRol }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.idRol })
         </td>
